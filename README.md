@@ -1,20 +1,47 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+First Flag
+First Flag is a beginner-friendly Capture The Flag (CTF) platform designed to help new cybersecurity learners gain real-world skills through guided challenges, curated study materials, and supportive community features.
 
-# Run and deploy your AI Studio app
+![Banner](https://github.com/user-attachments/assets/0aa67016-6eaf-458
 
-This contains everything you need to run your app locally.
+Guided Challenges: Each challenge includes hints, topic suggestions, and recommended tools for step-by-step learning.
 
-View your app in AI Studio: https://ai.studio/apps/temp/2
+Study Room: Access curated cybersecurity study materials and collaborate with others.
 
-## Run Locally
+Live Leaderboard: Track your progress and see how you rank with peers.
 
-**Prerequisites:**  Node.js
+Community Chat: Ask questions and discuss with fellow learners in a safe environment.
 
+User Accounts: Log in (including Google sign-in) to save scores and solutions.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Installation
+Prerequisites: Node.js
+
+Clone the repository:
+
+text
+git clone https://github.com/YOUR_USERNAME/first-flag.git
+cd first-flag
+Install dependencies:
+
+text
+npm install
+Add your Gemini API key to .env.local (if applicable).
+
+Run in development mode:
+
+text
+npm run dev
+Usage
+Visit http://localhost:5173 in your browser after starting the app.
+
+Create an account or sign in.
+
+Explore and solve challenges, check hints and suggested tools.
+
+Use the study room, leaderboard, and join the community chat.
+
+Contributing
+Contributions are welcome! Please fork the repository and submit a pull request with your changes. See CONTRIBUTING.md for guidelines.
+
+License
+ISC

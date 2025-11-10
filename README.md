@@ -47,14 +47,6 @@ Learning cybersecurity can be intimidating. First Flag focuses on the earliest l
 - Admin interface for adding and curating challenges (role-based).
 - Lightweight, front-end-first implementation in TypeScript + HTML.
 
----
-
-## Demo / Screenshots
-
-(Replace these placeholders with actual screenshots or a link to a hosted demo.)
-
-- Screenshot: /assets/screenshots/home.png
-- Demo: https://your-demo-url.example.com
 
 ---
 

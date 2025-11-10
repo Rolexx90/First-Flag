@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>First Flag</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'cyber-bg': '#0a0a1a',
+              'cyber-primary': '#0d0d2b',
+              'cyber-secondary': '#1a1a3d',
+              'cyber-accent': '#00f2ff',
+              'cyber-green': '#00ff7f',
+              'cyber-pink': '#ff00ff',
+              'cyber-text-primary': '#e0e0e0',
+              'cyber-text-secondary': '#a0a0c0',
+            },
+            fontFamily: {
+              'sans': ['Inter', 'sans-serif'],
+              'mono': ['Fira Code', 'monospace'],
+            },
+            animation: {
+              'glow': 'glow 1.5s ease-in-out infinite alternate',
+              'fadeIn': 'fadeIn 0.5s ease-in-out',
+            },
+            keyframes: {
+              glow: {
+                'from': { 'text-shadow': '0 0 5px #00f2ff, 0 0 10px #00f2ff, 0 0 15px #00f2ff' },
+                'to': { 'text-shadow': '0 0 10px #00f2ff, 0 0 20px #00f2ff, 0 0 30px #ff00ff' },
+              },
+              fadeIn: {
+                '0%': { opacity: '0', transform: 'translateY(10px)' },
+                '100%': { opacity: '1', transform: 'translateY(0)' },
+              },
+            }
+          }
+        }
+      }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.29.0",
+    "date-fns": "https://aistudiocdn.com/date-fns@^4.1.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-cyber-bg text-cyber-text-primary font-sans">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
